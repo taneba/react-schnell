@@ -1,0 +1,14 @@
+# dependencies
+**/node_modules
+
+# production
+/build
+
+# nextjs
+/.next
+
+# misc
+.DS_Store
+
+# editor setting
+/.vscode
