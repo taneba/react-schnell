@@ -1,7 +1,14 @@
-import React from 'react'
+import { css } from 'styled-components'
 
-function Home() {
-  return <div>Welcome to Next.js!</div>
-}
+const Home = () => (
+  <div
+    css={css`
+      color: red;
+      width: 14px;
+    `}
+  >
+    hey
+  </div>
+)
 
 export default Home

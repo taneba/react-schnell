@@ -1,7 +1,14 @@
-// next.config.js
-const withTypescript = require('@zeit/next-typescript')
-module.exports = withTypescript({
-  webpack(config, options) {
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
+
+module.exports = {
+  webpack: (config, options) => {
+    if (config.resolve.plugins) {
+      config.resolve.plugins(new TsconfigPathsPlugin())
+    } else {
+      config.resolve.plugins = [new TsconfigPathsPlugin()]
+    }
+
     return config
   },
-})
+  target: 'serverless',
+}
