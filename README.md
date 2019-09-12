@@ -2,8 +2,10 @@
 
 Schnell! there's no time to get lost.
 
-## stack
+## Quick Start
+`git clone --depth=1 https://github.com/taneba/react-schnell.git <YOUR_PROJECT_NAME>`
 
+## stack
 - react
 - nextjs
 - typescript
@@ -16,3 +18,12 @@ Schnell! there's no time to get lost.
 - perfect reset css
 - tsconfig path
 - useful constants for styling
+
+## Gotchas
+
+### ESLint not working in VS Code?
+add this line to your settings:
+
+```
+"eslint.validate": [ "javascript", "javascriptreact", "html", "typescriptreact" ]
+```
