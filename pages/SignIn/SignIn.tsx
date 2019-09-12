@@ -7,7 +7,7 @@ const { Size, Color } = Const
 const SignIn = () => {
   return (
     <div
-      css={css`
+      css={css` 
         color: ${Color.BRAND.PRIMARY};
         font-size: ${Size.FONT.LARGE};
       `}
