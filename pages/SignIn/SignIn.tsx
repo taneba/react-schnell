@@ -1,4 +1,4 @@
-import { NextPage } from 'next'
+import React from 'react'
 import { css } from 'styled-components'
 import Const from 'const'
 
