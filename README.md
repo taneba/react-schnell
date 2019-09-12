@@ -11,6 +11,7 @@ Schnell! there's no time to get lost.
 - typescript
 - styled-components
 - prettier
+- jest with react-testing-library
 
 ## boilerplate includes:
 - ssr setup for styled-components
@@ -18,6 +19,7 @@ Schnell! there's no time to get lost.
 - perfect reset css
 - tsconfig path
 - useful constants for styling
+- testing setup
 
 ## Gotchas
 
