@@ -1,6 +1,5 @@
 import Document, { DocumentContext } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
-import GlobalStyle from 'components/utils/GlobalStyle'
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -18,7 +17,6 @@ export default class MyDocument extends Document {
         ...initialProps,
         styles: (
           <>
-            <GlobalStyle />
             {initialProps.styles}
             {sheet.getStyleElement()}
           </>
