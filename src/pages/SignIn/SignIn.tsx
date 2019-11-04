@@ -1,13 +1,13 @@
 import React from 'react'
 import { css } from 'styled-components'
-import Const from 'const'
+import Const from 'src/const'
 
 const { Size, Color } = Const
 
 const SignIn = () => {
   return (
     <div
-      css={css` 
+      css={css`
         color: ${Color.BRAND.PRIMARY};
         font-size: ${Size.FONT.LARGE};
       `}
