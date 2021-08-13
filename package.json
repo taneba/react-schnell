@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@types/styled-components": "^4.1.19",
-    "next": "^9.1.2",
+    "next": "^11.1.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.1"
